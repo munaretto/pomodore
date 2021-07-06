@@ -1,9 +1,45 @@
 @import 'src/variables'
-// .main-container
-//   padding: $margin
+
+.content-padding
+  padding: $margin
 
 .timer-container
-  height: 60vh
-  background-color: $primary
-  padding: $margin
+  height: 80vh
+  background: linear-gradient(180deg, #D32F2F 0%, rgba(211, 47, 57, 0.62) 100%)
+  display: flex
+  flex-flow: column
+  align-items: center
+  justify-content: flex-start
+
+.display
+  border: 10px solid #ffffff
+  border-radius: 50%
+  width: 500px
+  height: 500px
+  display: flex
+  flex-flow: column
+  align-items: center
+  justify-content: center
+  color: #ffffff
+
+  h2
+    font-size: 6rem
+  h3
+    font-size: 1.5rem
+
+.text-container h2
+  color: $primary
+
+.action
+  margin-top: 64px
+  display: flex
+  flex-flow: row wrap
+  align-items: center
+  padding: 4px
+
+  button
+    margin: 4px
+
+
+
 
